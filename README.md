@@ -6,7 +6,7 @@ Simple examples of Python operations.
 
 ## Instructions
 
-Inside the '/examples' folder there are multiple files, each one with a short example of a Python functionality.
+Inside the '/examples' folder there are multiple files. Each one with a short example of a Python functionality.
 
 ### input.py
 
