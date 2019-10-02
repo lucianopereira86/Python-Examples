@@ -9,13 +9,13 @@ Simple examples of Python operations.
 Inside the '/examples' folder there are multiple files. Each one contains a short example of a Python functionality.
 
 ## Topics
- - [input.py](#input.py)
- - [error.py](#error.py)
- - [strings.py](#strings.py)
- - [numbers.py](#numbers.py)
- - [date.py](#date.py)
- - [error_handling.py](#error_handling.py)
- - [conditional.py](#conditional.py)
+ - [input.py](#inputpy)
+ - [error.py](#errorpy)
+ - [strings.py](#stringspy)
+ - [numbers.py](#numberspy)
+ - [date.py](#datepy)
+ - [error_handling.py](#error_handlingpy)
+ - [conditional.py](#conditionalpy)
 
 ### input.py
 
