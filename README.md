@@ -6,7 +6,16 @@ Simple examples of Python operations.
 
 ## Instructions
 
-Inside the '/examples' folder there are multiple files. Each one with a short example of a Python functionality.
+Inside the '/examples' folder there are multiple files. Each one contains a short example of a Python functionality.
+
+## Topics
+ - [input.py](###-input.py)
+ - [error.py](###-error.py)
+ - [strings.py](###-strings.py)
+ - [numbers.py](###-numbers.py)
+ - [date.py](###-date.py)
+ - [error_handling.py](###-error_handling.py)
+ - [conditional.py](###-conditional.py)
 
 ### input.py
 
@@ -42,7 +51,7 @@ The result is:
 
 An error occured at line 8 because it was not possible to divide by zero.
 
-## strings.py
+### strings.py
 
 Using multiple string functions.
 
@@ -58,7 +67,7 @@ The result is:
 
 ![code06](/docs/code06.JPG)
 
-## numbers.py
+### numbers.py
 
 Testing math operations with numbers and numeric strings
 
@@ -74,7 +83,7 @@ The result is:
 
 ![code08](/docs/code08.JPG)
 
-## date.py
+### date.py
 
 Testing datetime functions and formats.
 
@@ -90,7 +99,7 @@ The result is:
 
 ![code10](/docs/code10.JPG)
 
-## error_handling.py
+### error_handling.py
 
 Handling runtime errors.
 
@@ -106,7 +115,7 @@ The result is:
 
 ![code12](/docs/code12.JPG)
 
-## conditional.py
+### conditional.py
 
 Conditional logic examples.
 
