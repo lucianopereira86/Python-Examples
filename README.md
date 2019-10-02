@@ -74,6 +74,54 @@ The result is:
 
 ![code08](/docs/code08.JPG)
 
+## date.py
+
+Testing datetime functions and formats.
+
+![code09](/docs/code09.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\date.py
+```
+
+The result is:
+
+![code10](/docs/code10.JPG)
+
+## erro_handling.py
+
+Handling runtime errors.
+
+![code11](/docs/code11.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\error_handling.py
+```
+
+The result is:
+
+![code12](/docs/code12.JPG)
+
+## conditional.py
+
+Conditional logic examples.
+
+![code13](/docs/code13.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\conditional.py
+```
+
+The result is:
+
+![code14](/docs/code14.JPG)
+
 ## References
 
 Many of these examples are based on those found in the [Python for Beginners](https://www.youtube.com/watch?v=jFCNu1-Xdsw&list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6) series, presented by Microsoft.
