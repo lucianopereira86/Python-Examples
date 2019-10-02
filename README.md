@@ -90,7 +90,7 @@ The result is:
 
 ![code10](/docs/code10.JPG)
 
-## erro_handling.py
+## error_handling.py
 
 Handling runtime errors.
 
