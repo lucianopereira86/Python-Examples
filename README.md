@@ -9,13 +9,17 @@ Simple examples of Python operations.
 Inside the '/examples' folder there are multiple files. Each one contains a short example of a Python functionality.
 
 ## Topics
- - [input.py](#inputpy)
- - [error.py](#errorpy)
- - [strings.py](#stringspy)
- - [numbers.py](#numberspy)
- - [date.py](#datepy)
- - [error_handling.py](#error_handlingpy)
- - [conditional.py](#conditionalpy)
+
+- [input.py](#inputpy)
+- [error.py](#errorpy)
+- [string.py](#stringpy)
+- [number.py](#numberpy)
+- [date.py](#datepy)
+- [error_handling.py](#error_handlingpy)
+- [conditional.py](#conditionalpy)
+- [collection.py](#collectionpy)
+- [loop.py](#looppy)
+- [function.py](#functionpy)
 
 ### input.py
 
@@ -51,7 +55,7 @@ The result is:
 
 An error occured at line 8 because it was not possible to divide by zero.
 
-### strings.py
+### string.py
 
 Using multiple string functions.
 
@@ -67,7 +71,7 @@ The result is:
 
 ![code06](/docs/code06.JPG)
 
-### numbers.py
+### number.py
 
 Testing math operations with numbers and numeric strings
 
@@ -130,6 +134,54 @@ python .\examples\conditional.py
 The result is:
 
 ![code14](/docs/code14.JPG)
+
+### collection.py
+
+Manipulating arrays and lists.
+
+![code15](/docs/code15.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\collection.py
+```
+
+The result is:
+
+![code16](/docs/code16.JPG)
+
+### loop.py
+
+Controlling loops.
+
+![code17](/docs/code17.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\loop.py
+```
+
+The result is:
+
+![code18](/docs/code18.JPG)
+
+### function.py
+
+Creating functions.
+
+![code19](/docs/code19.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\function.py
+```
+
+The result is:
+
+![code20](/docs/code20.JPG)
 
 ## References
 
