@@ -20,6 +20,9 @@ Inside the '/examples' folder there are multiple files. Each one contains a shor
 - [collection.py](#collectionpy)
 - [loop.py](#looppy)
 - [function.py](#functionpy)
+- [module.py](#modulepy)
+- [venv.py](#venvpy)
+- [api\post.py](#api_postpy)
 
 ### input.py
 
@@ -182,6 +185,112 @@ python .\examples\function.py
 The result is:
 
 ![code20](/docs/code20.JPG)
+
+### module.py
+
+Importing the "math_module.py".
+
+![code21](/docs/code21.JPG)
+
+Using its functions.
+
+![code22](/docs/code22.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\module.py
+```
+
+The result is:
+
+![code23](/docs/code23.JPG)
+
+### venv.py
+
+Create a virtual environment, install a package and use it in a module.
+
+Execute the command below to create a folder called 'venv':
+
+```bash
+python -m venv venv
+```
+
+Press the 'Yes' button inside the popup that shows up inside the VSCode.
+
+![code24](/docs/code24.JPG)
+
+The virtual environment will be available in the project root folder.
+
+![code25](/docs/code25.JPG)
+
+Run the command below to use it:
+
+```bash
+.\venv\Scripts\Activate.ps1
+```
+
+The word '(venv)' will be visible in the left side of the current path.
+
+![code26](/docs/code26.JPG)
+
+And at the bottom of the VSCode, as well.
+
+![code27](/docs/code27.JPG)
+
+Create a file named 'requirements.txt' at the project root folder and type 'colorama' inside of it.
+
+![code28](/docs/code28.JPG)
+
+Install the colorama package inside the venv with the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+The result will be:
+
+![code29](/docs/code29.JPG)
+
+Import _colorama_ inside the _math_module.py_ to write colored messages.
+
+![code30](/docs/code30.JPG)
+
+Finally, run the command below:
+
+```bash
+python .\examples\module.py
+```
+
+The result will be:
+
+![code31](/docs/code31.JPG)
+
+### api\post.py
+
+Example of a POST request to a web API.
+
+![code32](/docs/code32.JPG)
+
+First, install the 'requests' library:
+
+```bash
+pip install requests
+```
+
+The result will be:
+
+![code33](/docs/code33.JPG)
+
+Then, run this command:
+
+```bash
+python .\examples\api\post.py
+```
+
+The result will be:
+
+![code34](/docs/code34.JPG)
 
 ## References
 
