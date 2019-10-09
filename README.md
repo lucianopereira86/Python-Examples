@@ -22,7 +22,7 @@ Inside the '/examples' folder there are multiple files. Each one contains a shor
 - [function.py](#functionpy)
 - [module.py](#modulepy)
 - [venv.py](#venvpy)
-- [api\post.py](#api_postpy)
+- [api/post.py](#apipostpy)
 
 ### input.py
 
@@ -266,7 +266,7 @@ The result will be:
 
 ![code31](/docs/code31.JPG)
 
-### api\post.py
+### api/post.py
 
 Example of a POST request to a web API.
 
