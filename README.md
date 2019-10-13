@@ -28,6 +28,7 @@ Inside the '/examples' folder there are multiple files. Each one contains a shor
 - [venv.py](#venvpy)
 - [api/post.py](#apipostpy)
 - [dictionary.py](#dictionarypy)
+- [keys.py](#keyspy)
 
 ### input.py
 
