@@ -4,6 +4,10 @@
 
 Simple examples of Python operations.
 
+## References
+
+All these examples are based on those presented by Microsoft's [Python for Beginners](https://www.youtube.com/watch?v=jFCNu1-Xdsw&list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6) series.
+
 ## Instructions
 
 Inside the '/examples' folder there are multiple files. Each one contains a short example of a Python functionality.
@@ -23,6 +27,7 @@ Inside the '/examples' folder there are multiple files. Each one contains a shor
 - [module.py](#modulepy)
 - [venv.py](#venvpy)
 - [api/post.py](#apipostpy)
+- [dictionary.py](#dictionarypy)
 
 ### input.py
 
@@ -238,11 +243,11 @@ And at the bottom of the VSCode, as well.
 
 ![code27](/docs/code27.JPG)
 
-Create a file named 'requirements.txt' at the project root folder and type 'colorama' inside of it.
+Create a file named 'requirements.txt' at the project root folder and type _colorama_ inside of it.
 
 ![code28](/docs/code28.JPG)
 
-Install the colorama package inside the venv with the following command:
+Install the _colorama_ package inside the venv with the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -292,6 +297,60 @@ The result will be:
 
 ![code34](/docs/code34.JPG)
 
-## References
+### dictionary.py
 
-Many of these examples are based on those found in the [Python for Beginners](https://www.youtube.com/watch?v=jFCNu1-Xdsw&list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6) series, presented by Microsoft.
+Creating and manipulating dictionaries.
+
+![code35](/docs/code35.JPG)
+
+Executing the command below:
+
+```batch
+python .\examples\dictionary.py
+```
+
+The result is:
+
+![code36](/docs/code36.JPG)
+
+### keys.py
+
+Reading environment variables.
+
+![code37](/docs/code37.JPG)
+
+Create a _.env_ file containing a secret key.
+
+![code38](/docs/code38.JPG)
+
+Update the _requirements.txt_ file by adding _python-dotenv_.
+
+![code39](/docs/code39.JPG)
+
+Let's use a virtual environment again by executing the commands below:
+
+```bash
+python -m venv venv
+
+.\venv\Scripts\Activate.ps1
+```
+
+Install the _python_dotenv_ package inside the venv:
+
+```bash
+pip install -r requirements.txt
+```
+
+The result will be:
+
+![code40](/docs/code40.JPG)
+
+Finally, run this command:
+
+```bash
+python .\examples\keys.py
+```
+
+The result will be:
+
+![code41](/docs/code41.JPG)
