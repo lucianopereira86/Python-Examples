@@ -29,6 +29,7 @@ Inside the '/examples' folder there are multiple files. Each one contains a shor
 - [api/post.py](#apipostpy)
 - [dictionary.py](#dictionarypy)
 - [keys.py](#keyspy)
+- [decorators.py](#decoratorspy)
 
 ### input.py
 
@@ -355,3 +356,19 @@ python .\examples\keys.py
 The result will be:
 
 ![code41](/docs/code41.JPG)
+
+### decorators.py
+
+How to use decorators in functions.
+
+![code42](/docs/code42.JPG)
+
+Run the command:
+
+```bash
+python .\examples\decorators.py
+```
+
+The result will be:
+
+![code43](/docs/code43.JPG)
